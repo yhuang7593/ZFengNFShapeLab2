@@ -6,11 +6,11 @@ public class Main {
         //Shape shape1 = new Rectangle();
         //Shape shape2 = new ETriangle();
         //Shape shape3 = new Circle();
-        Shape shape4 = RPentagon();
+        Shape shape4 = new RPentagon(5);
         System.out.println(shape4);
         System.out.println("My primeter is: "+shape4.getPerimeter());
         System.out.println("My Area is: "+ shape4.getArea());
-        //Shape[] shapes = {shape1, shape2, shape3};
+        Shape[] shapes = {shape4};
         for (Shape cur : shapes)
         {
             System.out.println(cur);

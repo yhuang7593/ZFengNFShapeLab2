@@ -10,5 +10,12 @@ public class Main {
         System.out.println(shape4);
         System.out.println("My primeter is: "+shape4.getPrimeter());
         System.out.println("My Area is: "+ shape4.getArea());
+        Shape[] shapes = {shape1, shape2, shape3};
+        for (Shape cur : shapes)
+        {
+            System.out.println(cur);
+            System.out.println("My area is: "+cur.getArea());
+            System.out.println("My preimeter is: "+cur.getPrimeter());
+        }
     }
 }
